@@ -1,0 +1,4 @@
+---
+# Minimal configuration.yaml entry
+# history_graph:
+# History Graph - The history_graph integration has been deprecated in Home Assistant 0.105 and is now removed

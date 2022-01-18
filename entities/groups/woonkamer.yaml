@@ -1,0 +1,10 @@
+---
+  group:
+  woonkamer:
+    name: woonkamer
+    entities:
+      - light.lamp_bank
+      - light.lamp_hoek_bank
+      - light.lamp_fotohoek
+      - light.bfeab82e3ac35f8ab59vmm #ledstrip woonkamner
+      # - switch.ac_09543ce_11 #lamp Salontafel
