@@ -23,11 +23,10 @@ logger:
 
 # Enable Home Assistant API
 api:
-  password: 'PASSWORD'
+  password: !secret esp_ha_api_ww
   reboot_timeout: 0s
 ota:
-  password: 'PASSWORD'
-
+  password: !secret esp_ha_api_ww
 # Enable Web server
 web_server:
   port: 80

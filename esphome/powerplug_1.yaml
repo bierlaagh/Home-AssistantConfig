@@ -16,9 +16,9 @@ logger:
 
 # Enable Home Assistant API
 api:
-  password: 'PASSWORD'
+  password: !secret esp_ha_api_ww
 ota:
-  password: 'PASSWORD'
+  password: !secret esp_ha_api_ww
 
 # Enable Web server
 web_server:
