@@ -1,5 +1,5 @@
 ---
-platform: sonsors
+platform: sensors
 friendly_name: "Beginstand bij douchen"
 unit_of_measurement: "l"
 icon_template: "mdi:water"
