@@ -9,18 +9,18 @@ homeassistant:
 sensor:
   - platform: template
     sensors:
-       powerplug_2_voltage:
-         value_template: >-
-           {{ states.switch.powerplug_2_plug.voltage }}
-         unit_of_measurement: 'V'
-       powerplug_2_current:
-         value_template: >-
-           {{ states.switch.powerplug_2_plug.current }}
-         unit_of_measurement: 'mA'
-       powerplug_2_consumption:
-         value_template: >-
-           {{ states.switch.powerplug_2_plug.current_consumption }}
-         unit_of_measurement: 'W'
+      powerplug_2_voltage:
+        value_template: >-
+          {{ states.switch.powerplug_2_plug.voltage }}
+        unit_of_measurement: 'V'
+      powerplug_2_current:
+        value_template: >-
+          {{ states.switch.powerplug_2_plug.current }}
+        unit_of_measurement: 'mA'
+      powerplug_2_consumption:
+        value_template: >-
+          {{ states.switch.powerplug_2_plug.current_consumption }}
+        unit_of_measurement: 'W'
   - platform: template
     sensors:
       pv_outputpower:

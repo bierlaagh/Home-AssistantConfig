@@ -1,3 +1,4 @@
+---
 utility_meter:
   waterverbuik_douchen_vandaag:
     source: sensor.waterverbruik_douchen
