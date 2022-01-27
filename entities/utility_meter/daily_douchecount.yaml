@@ -1,4 +1,0 @@
----
-  daily_douchecount:
-  source: sensor.douche_count
-  cycle: daily
