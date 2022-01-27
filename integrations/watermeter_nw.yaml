@@ -1,3 +1,29 @@
+# Watermeter toonWater
+# UTILITYS WATERMETER    
+utility_meter:
+  waterverbruik_dit_kwartier:  
+    source: sensor.watermeter_quantity
+    cycle: quarter-hourly
+  waterverbuik_dit_uur:
+    source: sensor.watermeter_quantity
+    cycle: hourly
+  waterverbuik_vandaag:
+    source: sensor.watermeter_quantity
+    cycle: daily    
+  waterverbuik_deze_week:
+    source: sensor.watermeter_quantity
+    cycle: weekly
+  waterverbuik_deze_maand:
+    source: sensor.watermeter_quantity
+    cycle: monthly
+  waterverbuik_dit_kwartaal:
+    source: sensor.watermeter_quantity
+    cycle: quarterly
+  waterverbuik_dit_jaar:
+    source: sensor.watermeter_quantity
+    cycle: yearly
+ 
+
 # Watermeter toonWater 
 sensor:
 
