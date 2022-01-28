@@ -1,0 +1,4 @@
+---
+  energieverbruik_wasmachine_yerly:
+    source: sensor.wasmachine_energy
+    cycle: yearly

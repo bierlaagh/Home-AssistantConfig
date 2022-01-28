@@ -1,0 +1,4 @@
+---
+  energieverbruik_vaatwasser_daily:
+    source: sensor.vaatwasser_energy
+    cycle: daily

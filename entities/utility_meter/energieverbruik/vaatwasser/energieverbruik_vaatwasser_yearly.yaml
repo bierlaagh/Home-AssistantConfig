@@ -1,0 +1,4 @@
+---
+  energieverbruik_vaatwasser_yearly:
+    source: sensor.vaatwasser_energy
+    cycle: yearly

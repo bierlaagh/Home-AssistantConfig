@@ -1,0 +1,4 @@
+---
+  energieverbruik_wasdroger_yearly:
+    source: sensor.powerplug_wasdroger_energy
+    cycle: yearly
