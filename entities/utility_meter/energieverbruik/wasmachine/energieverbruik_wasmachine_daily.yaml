@@ -1,0 +1,4 @@
+---
+  energieverbruik_wasmachine_daily:
+    source: sensor.wasmachine_energy
+    cycle: daily
