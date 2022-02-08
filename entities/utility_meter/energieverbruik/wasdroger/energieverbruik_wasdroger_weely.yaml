@@ -1,4 +1,4 @@
 ---
   energieverbruik_wasdroger_weely:
-    source: sensor.powerplug_wasdroger_energy
+    source: sensor.power_meter_plug_4_energy
     cycle: weekly
