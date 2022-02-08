@@ -7,7 +7,7 @@
   description: zet koffie apparaat als deze 30 min niet is gebruikt 
   trigger:
   - platform: numeric_state
-    entity_id: sensor.koffieapparaat_power
+    entity_id: sensor.power_meter_plug_5_energy
     below: '50'
     for:
       hours: 0
@@ -16,10 +16,10 @@
     attribute: power
   condition:
   - condition: state
-    entity_id: switch.koffieapparaat
+    entity_id: switch.power_meter_plug_5
     state: 'on'
   action:
   - service: switch.turn_off
     target:
-      entity_id: switch.koffieapparaat
+      entity_id: switch.power_meter_plug_5
   mode: single
